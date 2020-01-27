@@ -1,7 +1,7 @@
 {
   "name": "noteful-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server side of noteful app",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
@@ -31,5 +31,9 @@
     "nodemon": "^2.0.1",
     "postgrator-cli": "^3.2.0",
     "supertest": "^4.0.2"
+  },
+  "directories": {
+    "test": "test"
   }
+  
 }
